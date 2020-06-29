@@ -3,8 +3,3 @@ node_js:
 - 10
 script:
 - yarn test
-deploy:
-  provider: heroku
-  app: react-virtual-keyboard-heroku
-  api_key:
-    secure: EevqeMC8EDi8/Aungh3/tkE+EXtYnZO4NseDjwt7i/gtuOnuu+NR/e/uGt0tp5LxfJKTiT7afT1OoFUZ5EgQnAvMSzS57tjdNB5ADiv1WXRTx7jBkYCsIeC7fUjErJyhiL6c3ePFNnrxX3UApJLGr1+UAjvgxsvd4g6RWX2+ZD5UrdhXpQhdj1Z0M1OgpuJZSQRIyaJ5QfZotN/k0lXBc/L9fDEgTiKLpNCqnFIEM6g6XNLJ6RMSRXiqIexFcptrLZatCIOTH6m3m+PIMbElNOn8i5ObVV92HvioJHPw4yTVBgHsGbHiFBcd6dr1ACyOrKQbyP0i5W0GXuxgv8Eo4NOux4mBQcyAp1UXAX8hkH6R+NionMxCB5/oZtVh/25u0ZJRFT/beSsCEAUj/7iAllFhggl54pIcFGGWjWvKtSOSVkL9f8SHeuZ8MDwO8ElGHOThbyH2kcxXDXduChkKRDbgPzyJzDGYNLd0csHEh11JncsvbzkICys8Zv9uyKYJmj8P+heNtFmsh4nAart+cehTOakFKR3Y/DaxHUhEMNz/iRZjDV/kEt/0kpPmSFNhubDR54c3qyXH1XTwiil+Ood0SLJ3jlLL2u/JsIIgS1U7q1qCZCEvLDsdbaA5khLbhCGijctlltXLZ1mZCkJNf0T4VcDbwKY/84xjmJH0Lb8=
