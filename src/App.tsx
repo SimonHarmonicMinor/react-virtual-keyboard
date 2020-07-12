@@ -1,9 +1,23 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import {
+  Container, Grid, TextField, Typography,
+} from '@material-ui/core';
 
 function App() {
   return (
-    <Button variant="contained" color="primary">Hello, world</Button>
+    <Container>
+      <Grid alignContent="center" container direction="column">
+        <Grid item>
+          <Typography variant="h1">Virtual Keyboard</Typography>
+        </Grid>
+        <Grid item>
+          <TextField fullWidth variant="outlined" />
+        </Grid>
+        <Grid item>
+          Keyboard
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
 
